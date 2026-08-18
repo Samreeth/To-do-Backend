@@ -4,7 +4,7 @@ export const fetchTasks = async() =>{
     try{
         const response = await fetch(`${API_URL}/tasks`);
         if(!response.ok){
-            throw new Error("Failed to fetch tasks");
+            throw new Error("Failed to fetch tasks ra babu");
         }
         return await response.json();
 
